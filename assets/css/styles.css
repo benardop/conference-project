@@ -85,10 +85,9 @@ nav {
 
 .bottom-menu ul .presentation {
     text-decoration: none;
-    border: 0.1px solid #fff;
-    background-color: #ef513c;
+    border: 2px solid #ef513c;;
     padding: 10px;
-    color: #fff;
+    color: rgb(136, 136, 136)
 }
 
 .burger-menu {
@@ -169,16 +168,18 @@ nav {
     color: rgb(51, 51, 51);
 }
 
+/**program styles**/
 .main-program {
     display: flex;
     flex-direction: column;
     background-image: url(/assets/images/pattern_bg.png);
     background-repeat: repeat;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     background-color: rgb(39, 42, 50);
     margin-top: 2rem;
     align-items: center;
+    gap: 1rem;
 }
 
 
@@ -191,42 +192,304 @@ nav {
 .line-1 {
     width: 5%;
     border-bottom: 1px solid rgb(239, 81, 60);
-    margin-top: 1rem;
+    margin-top: 0.015rem;
 }
 
 .program-list {
     display: flex;
     width: 100%;
     height: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-content: flex-start;
 }
 
+/* Main Program styles */
 .conference {
     display: flex;
     flex-direction: column;
     gap: 0.215rem;
-    width: 12%;
-    height: 30%;
+    width: 15%;
+    height: 75%;
     background: rgba(255, 255, 255, 0.1);
     align-items: center;
     margin-left: 2rem;
+    padding: 0.215rem;
+    font-family: 'lato', sans-serif;
 }
 
-.conference img {
-   width: 50%;
-   height: 50%;
-}
-
-.program-list .text-1 {
+.conference .text-1 {
     color: rgb(239, 81, 60);
-    font-size: 1.5em;
+    font-size: 1.115em;
+    font-family: 'lato', sans-serif;
 }
 
-.program-list .text-2 {
+.conference .text-2 {
     color: rgb(255, 255, 255);
     font-size: 0.813em;
     font-family: 'lato', sans-serif;
 }
 
+
+.exhibition {
+    display: flex;
+    flex-direction: column;
+    gap: 0.215rem;
+    width: 15%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    margin-left: 2rem;
+    padding: 0.215rem;
+    font-family: 'lato', sans-serif;
+}
+
+.exhibition .text-1 {
+    color: rgb(239, 81, 60);
+    font-size: 1.115em;
+    font-family: 'lato', sans-serif;
+}
+
+.exhibition .text-2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.813em;
+    font-family: 'lato', sans-serif;
+}
+
+.forum {
+    display: flex;
+    flex-direction: column;
+    gap: 0.215rem;
+    width: 15%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    margin-left: 2rem;
+    padding: 0.215rem;
+    font-family: 'lato', sans-serif;
+}
+
+.forum .text-1 {
+    color: rgb(239, 81, 60);
+    font-size: 1.115em;
+    font-family: 'lato', sans-serif;
+}
+
+.forum .text-2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.813em;
+    font-family: 'lato', sans-serif;
+}
+
+.workshop {
+    display: flex;
+    flex-direction: column;
+    gap: 0.215rem;
+    width: 15%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    margin-left: 2rem;
+    padding: 0.215rem;
+    font-family: 'lato', sans-serif;
+}
+
+.workshop .text-1 {
+    color: rgb(239, 81, 60);
+    font-size: 1.115em;
+    font-family: 'lato', sans-serif;
+}
+
+.workshop .text-2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.813em;
+    font-family: 'lato', sans-serif;
+}
+
+.party {
+    display: flex;
+    flex-direction: column;
+    gap: 0.215rem;
+    width: 15%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    margin-left: 2rem;
+    padding: 0.215rem;
+    font-family: 'lato', sans-serif;
+}
+
+.party .text-1 {
+    color: rgb(239, 81, 60);
+    font-size: 1.115em;
+    font-family: 'lato', sans-serif;
+}
+
+.party .text-2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.813em;
+    font-family: 'lato', sans-serif;
+}
+
+
+.main-program a {
+    display: block;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    font-size: 1.112em;
+    font-family: 'lato', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/**Speakers sectio styles**/
+.speakers {
+    background-color: var(--color-white);
+    opacity: 0.9;
+    filter: grayscale(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+
+  .speakers h2 {
+    margin-top: 2rem;
+  }
+  
+  .speakersContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .speakerItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .speakerItem img {
+    background-color: #fff;
+  }
+
+  .profile {
+    text-align: left;
+    margin-left: 0.5rem;
+    width: 100%;
+  }
+  
+  .profile img {
+    width: 1rem;
+    position: relative;
+    top: -0.25rem;
+  }
+  
+  .profile h2 {
+    color: var(--color-black);
+    margin-top: auto;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .profile h3 {
+    color: var(--color-red);
+    margin-top: auto;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  .profile p {
+    text-align: left;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+  }
+
+/***Main speakers section styles*/
+
+.sponsor-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e3139;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(39, 42, 50);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.sponsor-section h1 {
+    color: #fff;
+    margin-top: 2rem;
+    font-family: 'lato', sans-serif;
+}
+
+.line-1 {
+    width: 5%;
+    border-bottom: 1px solid rgb(239, 81, 60);
+    margin-top: 0.015rem;
+}
+
+.sponsorList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vw;
+    color: #fff;
+}
+
+.sponsorList ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    font-family: 'lato', sans-serif;
+}
+
+.sponsorList ul img {
+    width: 2.55rem;
+    height: 2.55rem;
+}
+
+.footer-section {
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 0.115rem;
+    font-size: 0.85rem;
+    font-family: 'lato', sans-serif;
+}
+
+.footer ul img {
+    max-width: 50%;
+    max-height: 50%;
+}
 /* @media screen and (min-width: 720px) {
     
     
