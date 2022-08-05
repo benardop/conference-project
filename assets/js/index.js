@@ -1,5 +1,7 @@
 const buggerMenu = document.querySelector('#burger-menu');
-const ul = document.getElementById('navbar');
+const ul = document.getElementById('bt-menu');
+// const ul = document.querySelector('nav #navbar');
+
 const btnClose = document.querySelector('#navbar');
 
 const navigationLink = document.querySelectorAll('.nav-link');
@@ -7,7 +9,8 @@ const navigationLink = document.querySelectorAll('.nav-link');
 buggerMenu.addEventListener('click', () => {
   // ul.classList.toggle('show');
   ul.style.display = 'block';
-  // console.log('test');
+  document.getElementById('navbar').style.display='unset';
+
 });
 
 navigationLink.forEach((navLink) => navLink.addEventListener('click', () => {
@@ -15,7 +18,8 @@ navigationLink.forEach((navLink) => navLink.addEventListener('click', () => {
 }));
 
 btnClose.addEventListener('click', () => {
-  ul.classList.toggle('show');
+  ul.style.display = 'none';
+  document.getElementById('navbar').style.display='none';
 });
 
 
@@ -24,7 +28,7 @@ btnClose.addEventListener('click', () => {
 // Create speakerList Object
 const speakerList = document.querySelector(".speakerList");
 
-const speakerObj = {
+const speakerObjData = {
     profileImg: ['/assets/images/speaker_06.png', '/assets/images/speaker_01.png', 
                  '/assets/images/speaker_02.png', '/assets/images/speaker_03.png', 
                  '/assets/images/speaker_04.png', '/assets/images/speaker_05.png'],
@@ -40,7 +44,7 @@ window.onload = function getData() {
     h2One.textContent = 'Featured Speakers';
     const imgOne = document.createElement('img');
     imgOne.classList.add('indicator');
-    // imgOne.setAttribute('src', speakerObj.indicators[0]);
+    
     divOne.append(h2One, imgOne);
     speakers.append(divOne);
 
@@ -62,22 +66,22 @@ window.onload = function getData() {
           divThree[i].classList.add('speakerItem');
           divFour[i] = document.createElement('div');
           imgTwo[i] = document.createElement('img');
-          imgTwo[i].setAttribute('src', speakerObj.profileImg[i]);
+          imgTwo[i].setAttribute('src', speakerObjData.profileImg[i]);
           divFour[i].append(imgTwo[i]);
           divThree[i].append(divFour[i]);
           divFive[i] = document.createElement('div');
           divFive[i].classList.add('profile');
           h2Two[i] = document.createElement('h2');
-          h2Two[i].textContent = speakerObj.name[i];
+          h2Two[i].textContent = speakerObjData.name[i];
           divFive[i].append(h2Two[i]);
           h3One[i] = document.createElement('h3');
-          h3One[i].textContent = speakerObj.title[i];
+          h3One[i].textContent = speakerObjData.title[i];
           divFive[i].append(h3One[i]);
           imgThree[i] = document.createElement('img');
-        //   imgThree[i].setAttribute('src', speakerObj.indicators[1]);
+        
           divFive[i].append(imgThree[i]);
           pOne[i] = document.createElement('p');
-          pOne[i].textContent = speakerObj.description[i];
+          pOne[i].textContent = speakerObjData.description[i];
           divFive[i].append(pOne[i]);
           divThree[i].append(divFive[i]);
           divTwo.append(divThree[i]);
