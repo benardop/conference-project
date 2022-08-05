@@ -624,6 +624,9 @@ ul .nav-links {
     margin-top: 0;
     list-style-type: none;
     justify-content: flex-end;
+    opacity: 0.9;
+    font-size: 0.8rem;
+    font-family: 'lato', sans-serif;
   }
 
   .top-menu a {
