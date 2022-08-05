@@ -49,12 +49,6 @@ nav .nav.show {
   display: none;
 }
 
-/* .nav-overlay .closebtn {
-  top: 22px;
-  right: 45px;
-  font-size: 30px;
-} */
-
 .nav-overlay .closebtn {
   font-size: 50px;
   top: 15px;
@@ -215,21 +209,11 @@ nav .burger-menu {
   flex-direction: column;
   background-image: url(/assets/images/pattern_bg.png);
   background-repeat: repeat;
-
-  /* width: 100vw; */
-
-  /* height: 60vh; */
   background-color: rgb(39, 42, 50);
   margin-top: 3rem;
   align-items: center;
   gap: 1rem;
 }
-
-/* .main-program h1 {
-  color: #fff;
-  margin-top: 4rem;
-  font-family: 'lato', sans-serif;
-} */
 
 .line-1 {
   width: 5%;
@@ -502,13 +486,6 @@ nav .burger-menu {
   margin-top: 2rem;
   font-family: 'lato', sans-serif;
 }
-
-/* .line-1 {
-  display: none;
-  width: 5%;
-  border-bottom: 1px solid rgb(239, 81, 60);
-  margin-top: 0.015rem;
-} */
 
 .sponsorList {
   display: flex;
