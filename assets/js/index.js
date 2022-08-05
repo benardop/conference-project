@@ -21,7 +21,7 @@ btnClose.addEventListener('click', () => {
   document.getElementById('navbar').style.display = 'none';
 });
 
-// Create speakerList Object
+// Set up list of speaker as an object
 const speakers = document.querySelector('.speakers');
 
 const speakerObjData = {
