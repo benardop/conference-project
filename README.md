@@ -12,7 +12,7 @@ For this conference website, I implemented Html, JavaScript And Css that include
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/portfolio-project/)
+[Live Demo Link](https://benardop.github.io/conference-project/)
 ## Get Started
 
 Please get your browser update.
@@ -20,9 +20,9 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone <URL> ' https://github.com/benardop/professional-portfolio.git' in your terminal
+      git clone <URL> ' https://github.com/benardop/conference-project.git' in your terminal
 
-	  cd professional-portfolio
+	  cd conference-project
 
 
 ## Authors
