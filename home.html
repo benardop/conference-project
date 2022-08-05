@@ -24,24 +24,41 @@
                         <img src="./assets/images/twitter.png" alt="Facebook">
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.twitter.com/">
+                        English
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/">
+                        MyPage
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/">
+                        Logout
+                    </a>
+                </li>
             </ul>
         </div>
         
         <div class="bottom-menu">
-            <ul>
+            <ul id="navbar" class="nav-overlay">
                 <li><img src="/assets/images/logo.png" alt="Logo"></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Event Introduction</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#home">Application for partispation</a></li>
-                <li><a href="#">Sponsor</a></li>
-                <li><a href="#" class="presentation">AIS</a></li>
-                <button class="burger-menu" id="burger-menu">
-                    <ion-icon class="bars" name="menu-outline"></ion-icon>
-                </button>
-            
+                <li><a href="javascript:void(0)" class="closebtn">&times;</a></li>
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Event Introduction</a></li>
+                <li><a href="#" class="nav-link">Program</a></li>
+                <li><a href="#home" class="nav-link">Application for partispation</a></li>
+                <li><a href="#" class="nav-link">Sponsor</a></li>
+                <li><a href="#" class="presentation">AIS</a></li>            
             </ul>
+        </div>
+        <div class="burger-button">
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
         </div>
     </nav>
    <!----Home paage section-->
@@ -123,6 +140,7 @@
             <a href="home.html">View full program ></a>
     </section>
 
+    <div class="summit-tab"><h3>Africa Internet Summit</h3></div>
     <!--guest speakers section-->
     <section class="speakers" id="speakers">
     </section>
@@ -151,16 +169,20 @@
                 </li>
             </ul>
         </div>
-        <section class="footer-section">
-            <footer class="footer">
-                <ul>
-                    <li><img src="/assets/images/logo.png" alt="Logo"></li>
-                    <li>
-                        <p>2022 Africa Internet Summit. All Rights Reserved</p>
-                    </li>
-                </ul>
-            </footer>
-        </section>
+    </section>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="" />
+    </i>
+    <section class="footer-section">
+        <footer class="footer">
+            <ul>
+                <li><img src="/assets/images/logo.png" alt="Logo"></li>
+                <li>
+                    <p>2022 Africa Internet Summit. All Rights Reserved</p>
+                </li>
+            </ul>
+        </footer>
     </section>
     <script src="/assets/js/index.js"></script>
     <script
