@@ -1,10 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-
-
-/* ---CSS RESET---- */
-
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +88,6 @@ nav .burger-menu {
   cursor: pointer;
 }
 
-
 /**  Welcome Section  **/
 .welcome-section {
   display: flex;
@@ -114,7 +109,6 @@ nav .burger-menu {
   align-items: center;
   justify-content: center;
 }
-
 
 .title .paragraph-1 {
   width: 40%;
@@ -585,9 +579,7 @@ nav .burger-menu {
   max-height: 50%;
 }
 
-
 /**  Desktop Media  **/
-
 @media screen and (min-width: 768px) {
   * {
     margin: 0;

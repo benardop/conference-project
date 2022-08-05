@@ -1,8 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-
-
 /* ---CSS RESET---- */
 * {
   margin: 0;
@@ -21,8 +19,6 @@ body {
   height: 100%;
   background-color: rgb(253, 254, 255);
 }
-
-
 
 /** overlay button close **/
 nav .nav.show {
@@ -66,7 +62,6 @@ nav .nav.show {
 }
 
 .bottom-menu ul {
-  /* display: flex; */
   flex-direction: column;
   align-items: center;
   background-color: #4756df;
