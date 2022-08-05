@@ -1,3 +1,26 @@
+const buggerMenu = document.querySelector('#burger-menu');
+const ul = document.getElementById('navbar');
+const btnClose = document.querySelector('#navbar');
+
+const navigationLink = document.querySelectorAll('.nav-link');
+
+buggerMenu.addEventListener('click', () => {
+  // ul.classList.toggle('show');
+  ul.style.display = 'block';
+  // console.log('test');
+});
+
+navigationLink.forEach((navLink) => navLink.addEventListener('click', () => {
+  ul.classList.remove('remove');
+}));
+
+btnClose.addEventListener('click', () => {
+  ul.classList.toggle('show');
+});
+
+
+
+
 // Create speakerList Object
 const speakerList = document.querySelector(".speakerList");
 
@@ -14,7 +37,7 @@ const speakerObj = {
 window.onload = function getData() {
     const divOne = document.createElement('div');
     const h2One = document.createElement('h2');
-    h2One.textContent = 'Guest Speakers';
+    h2One.textContent = 'Featured Speakers';
     const imgOne = document.createElement('img');
     imgOne.classList.add('indicator');
     // imgOne.setAttribute('src', speakerObj.indicators[0]);
@@ -73,19 +96,19 @@ window.onload = function getData() {
         const moreBtn = document.createElement('button');
         moreBtn.setAttribute('type', 'button');
         moreBtn.classList.add('moreBtn');
-        moreBtn.textContent = 'More';
+        moreBtn.textContent = 'Show More';
         const moreImg = document.createElement('img');
-        moreImg.setAttribute('src', './assets/union.svg');
+        moreImg.setAttribute('src', '/assets/images/union.svg');
         moreImg.classList.add('moreImg');
         moreBtn.append(moreImg);
         more.append(moreBtn);
         speakers.append(more);
     
         more.addEventListener('click', () => {
-          if (moreBtn.textContent === 'More') {
+          if (moreBtn.textContent === 'Show More') {
             dynamic(2, 6);
-            moreBtn.textContent = 'Less';
-            // moreImg.setAttribute('src', './assets/union.svg');
+            moreBtn.textContent = 'Show Less';
+            moreImg.setAttribute('src', '/assets/images/union.svg');
             moreImg.classList.add('moreImg');
             moreImg.classList.add('flipImg');
             moreBtn.append(moreImg);
@@ -96,8 +119,8 @@ window.onload = function getData() {
             divThree[3].remove();
             divThree[4].remove();
             divThree[5].remove();
-            moreBtn.textContent = 'More';
-            // moreImg.setAttribute('src', './assets/union.svg');
+            moreBtn.textContent = 'Show More';
+            moreImg.setAttribute('src', '/assets/images/union.svg');
             moreImg.classList.add('moreImg');
             moreImg.classList.remove('flipImg');
             moreBtn.append(moreImg);
@@ -111,3 +134,14 @@ window.onload = function getData() {
     window.location.reload();
   };
 }
+
+//Page scroll up script code
+const scrollUp  = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener('click', () => {
+    window.scrollTo({
+       top: 0,
+       left: 0,
+       behavior: 'smooth',
+    });
+});
