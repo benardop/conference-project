@@ -38,6 +38,44 @@ nav .top-menu {
     display: none;
 }
 
+/**modal overlay*/
+.nav-overlay {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background: #4756df; */
+    background-color: #d3d3d3;
+    overflow-y: hidden;
+    transition: 0.5s;
+    /* opacity: 0.96; */
+    /* display: none; */
+}
+
+.nav-overlay img {
+    display: none;
+}
+
+.nav-overlay .closebtn {
+    top: 22px;
+    right: 45px;
+    font-size: 30px;
+  }
+  
+.nav-overlay .closebtn {
+    font-size: 50px;
+    top: 15px;
+    right: 35px;
+    color: #000;
+  }
+
+
 /* nav {
     padding: 1.5rem 1rem;
 } */
@@ -59,34 +97,6 @@ nav .bottom-menu {
     justify-content: flex-start;
 }
 
-
-/* .bottom-menu ul {
-    position: fixed;
-    background-color: #fff;
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
-} */
-
-/* .bottom-menu img {
-   display: none;
-} */
-
-/* .bottom-menu ul a {
-    text-decoration: none;
-    color: rgb(136, 136, 136);
-} */
-
-/* .bottom-menu ul .presentation {
-    text-decoration: none;
-    border: 2px solid #ef513c;;
-    padding: 10px;
-    color: rgb(136, 136, 136)
-} */
 
 nav .burger-menu {
     display: block;
@@ -1199,6 +1209,7 @@ nav .burger-menu {
         color: #fff;
         background-color: #000;
         margin-top: 4rem;
+        margin-left: 0rem;
     } 
     
     .about-footer ul {
@@ -1218,6 +1229,27 @@ nav .burger-menu {
         max-width: 50%;
         max-height: 50%;
     }
+
+    .nav-overlay {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: #4756df;
+        overflow-y: hidden;
+        transition: 0.5s;
+        opacity: 0.96;
+        display: none;
+    }
+
+    /**unset nav overlay**/
+    .nav-overlay {
+        all: unset; 
+      } 
     
     
 } 
