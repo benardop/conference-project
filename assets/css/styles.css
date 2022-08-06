@@ -115,7 +115,7 @@ nav .burger-menu {
   flex-direction: column;
   max-width: 100%;
   height: 100%;
-  background: url("/assets/images/main_big.png") 100%;
+  background: url("./assets/images/main_big.png") 100%;
   background-position: center;
   background-repeat: repeat;
   gap: 1rem;
@@ -202,7 +202,7 @@ nav .burger-menu {
 .main-program {
   display: flex;
   flex-direction: column;
-  background-image: url(/assets/images/pattern_bg.png);
+  background-image: url("./assets/images/pattern_bg.png");
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
   margin-top: 3rem;
@@ -673,7 +673,7 @@ ul .nav-links {
     flex-direction: column;
     max-width: 100%;
     height: 100%;
-    background: url("/assets/images/main_big.png") 100%;
+    background: url("./assets/images/main_big.png") 100%;
     background-position: center;
     background-repeat: repeat;
     gap: 2rem;
@@ -765,7 +765,7 @@ ul .nav-links {
   .main-program {
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/images/pattern_bg.png);
+    background-image: url("./assets/images/pattern_bg.png");
     background-repeat: repeat;
     width: 100vw;
     height: 60vh;
