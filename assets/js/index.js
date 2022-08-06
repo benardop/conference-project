@@ -6,8 +6,8 @@ const btnClose = document.querySelector('#navbar');
 const navigationLink = document.querySelectorAll('.nav-link');
 
 buggerMenu.addEventListener('click', () => {
-  ul.style.display = 'block';
-  document.getElementById('navbar').style.display = 'unset';
+  ul.style.display = 'flex';
+  document.getElementById('navbar').style.display = 'flex';
 });
 
 navigationLink.forEach((navLink) => navLink.addEventListener('click', () => {
