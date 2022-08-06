@@ -95,7 +95,7 @@ window.onload = function getData() {
     moreBtn.classList.add('moreBtn');
     moreBtn.textContent = 'Show More';
     const moreImg = document.createElement('img');
-    moreImg.setAttribute('src', '/assets/images/union.svg');
+    moreImg.setAttribute('src', './assets/images/union.svg');
     moreImg.classList.add('moreImg');
     moreBtn.append(moreImg);
     more.append(moreBtn);
@@ -105,7 +105,7 @@ window.onload = function getData() {
       if (moreBtn.textContent === 'Show More') {
         dynamic(2, 6);
         moreBtn.textContent = 'Show Less';
-        moreImg.setAttribute('src', '/assets/images/union.svg');
+        moreImg.setAttribute('src', './assets/images/union.svg');
         moreImg.classList.add('moreImg');
         moreImg.classList.add('flipImg');
         moreBtn.append(moreImg);
@@ -117,7 +117,7 @@ window.onload = function getData() {
         divThree[4].remove();
         divThree[5].remove();
         moreBtn.textContent = 'Show More';
-        moreImg.setAttribute('src', '/assets/images/union.svg');
+        moreImg.setAttribute('src', './assets/images/union.svg');
         moreImg.classList.add('moreImg');
         moreImg.classList.remove('flipImg');
         moreBtn.append(moreImg);
