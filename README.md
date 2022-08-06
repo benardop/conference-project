@@ -13,6 +13,9 @@ For this conference website, I implemented Html, JavaScript And Css that include
 
 ## Live Demo
 [Live Demo Link](https://benardop.github.io/conference-project/)
+
+## Video Description
+- https://www.loom.com/share/c19419f308304b2a94e0ef2206d27ba2
 ## Get Started
 
 Please get your browser update.
