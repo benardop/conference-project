@@ -640,6 +640,7 @@ ul .nav-links {
   }
 
   nav .bottom-menu img {
+    all: unset;
     max-width: 50%;
     max-height: 50%;
   }
