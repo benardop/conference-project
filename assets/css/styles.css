@@ -39,6 +39,7 @@ nav .nav.show {
   background-color: #d3d3d3;
   overflow-y: hidden;
   transition: 0.5s;
+  color: #000;
 }
 
 .nav-overlay img {
@@ -68,6 +69,8 @@ nav .nav.show {
   color: #fff;
   display: none;
   font-family: 'lato', sans-serif;
+  list-style-type: none;
+  gap: 2rem;
 }
 
 nav {
