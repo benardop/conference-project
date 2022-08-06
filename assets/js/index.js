@@ -1,13 +1,11 @@
 const buggerMenu = document.querySelector('#burger-menu');
 const ul = document.getElementById('bt-menu');
-// const ul = document.querySelector('nav #navbar');
 
 const btnClose = document.querySelector('#navbar');
 
 const navigationLink = document.querySelectorAll('.nav-link');
 
 buggerMenu.addEventListener('click', () => {
-  // ul.classList.toggle('show');
   ul.style.display = 'block';
   document.getElementById('navbar').style.display = 'unset';
 });
