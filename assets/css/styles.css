@@ -213,6 +213,12 @@ nav .burger-menu {
   gap: 1rem;
 }
 
+.main-program h1 {
+    color: #fff;
+    margin-top: 4rem;
+    font-family: 'lato', sans-serif;
+}
+
 .line-1 {
   width: 5%;
   border-bottom: 1px solid rgb(239, 81, 60);
