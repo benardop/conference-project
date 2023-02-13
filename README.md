@@ -20,7 +20,7 @@ For this conference website, I implemented Html, JavaScript And Css that include
 ## Project Documentation
 
 # Website Mockup 📱 💻 🖥️
-![screenshot-1](https://user-images.githubusercontent.com/620415/186986679-3a19170b-bb81-43b2-b4f3-bee85b4b872e.PNG)
+![screenshot-1](https://user-images.githubusercontent.com/620415/218545561-786855b8-4349-4e87-844b-03cfec4ba198.PNG)
 
 ## Get Started
 
