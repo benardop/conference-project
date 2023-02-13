@@ -12,10 +12,10 @@ For this conference website, I implemented Html, JavaScript And Css that include
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/conference-project/)
+[Live Demo Link](https://benardop.github.io/conference-project/)👈
 
 ## Video Description
-- https://www.loom.com/share/bb03da11ef524772bae44655c9b266c9
+- https://www.loom.com/share/bb03da11ef524772bae44655c9b266c9 👈
 
 ## Project Documentation
 
